@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D0C1442B48EF06006CB296 /* Vertex5_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0C1432B48EF06006CB296 /* Vertex5_TestApp.swift */; };
+		84D0C1462B48EF06006CB296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0C1452B48EF06006CB296 /* ContentView.swift */; };
+		84D0C1482B48EF07006CB296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D0C1472B48EF07006CB296 /* Assets.xcassets */; };
+		84D0C14B2B48EF07006CB296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D0C14A2B48EF07006CB296 /* Preview Assets.xcassets */; };
+		84D0C1552B48EF07006CB296 /* Vertex5_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0C1542B48EF07006CB296 /* Vertex5_TestTests.swift */; };
+		84D0C15F2B48EF07006CB296 /* Vertex5_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0C15E2B48EF07006CB296 /* Vertex5_TestUITests.swift */; };
+		84D0C1612B48EF07006CB296 /* Vertex5_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0C1602B48EF07006CB296 /* Vertex5_TestUITestsLaunchTests.swift */; };
+		84D0C16F2B48EF24006CB296 /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0C16E2B48EF24006CB296 /* OnboardView.swift */; };
+		84D0C1712B48EF34006CB296 /* OnboardWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0C1702B48EF34006CB296 /* OnboardWeightView.swift */; };
+		84D0C1732B48EF3C006CB296 /* OnboardHeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0C1722B48EF3C006CB296 /* OnboardHeightView.swift */; };
+		84D0C1752B48EF83006CB296 /* OnboardHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0C1742B48EF83006CB296 /* OnboardHeaderView.swift */; };
+		84D0C1782B48F10C006CB296 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0C1772B48F10C006CB296 /* Color+Ext.swift */; };
+		84D0C17B2B48FE3B006CB296 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0C17A2B48FE3B006CB296 /* PickerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D0C1512B48EF07006CB296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D0C1382B48EF06006CB296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D0C13F2B48EF06006CB296;
+			remoteInfo = "Vertex5-Test";
+		};
+		84D0C15B2B48EF07006CB296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D0C1382B48EF06006CB296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D0C13F2B48EF06006CB296;
+			remoteInfo = "Vertex5-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84D0C1402B48EF06006CB296 /* Vertex5-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vertex5-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D0C1432B48EF06006CB296 /* Vertex5_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex5_TestApp.swift; sourceTree = "<group>"; };
+		84D0C1452B48EF06006CB296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84D0C1472B48EF07006CB296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D0C14A2B48EF07006CB296 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84D0C1502B48EF07006CB296 /* Vertex5-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vertex5-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D0C1542B48EF07006CB296 /* Vertex5_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex5_TestTests.swift; sourceTree = "<group>"; };
+		84D0C15A2B48EF07006CB296 /* Vertex5-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vertex5-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D0C15E2B48EF07006CB296 /* Vertex5_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex5_TestUITests.swift; sourceTree = "<group>"; };
+		84D0C1602B48EF07006CB296 /* Vertex5_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex5_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84D0C16E2B48EF24006CB296 /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
+		84D0C1702B48EF34006CB296 /* OnboardWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardWeightView.swift; sourceTree = "<group>"; };
+		84D0C1722B48EF3C006CB296 /* OnboardHeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardHeightView.swift; sourceTree = "<group>"; };
+		84D0C1742B48EF83006CB296 /* OnboardHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardHeaderView.swift; sourceTree = "<group>"; };
+		84D0C1772B48F10C006CB296 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		84D0C17A2B48FE3B006CB296 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D0C13D2B48EF06006CB296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D0C14D2B48EF07006CB296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D0C1572B48EF07006CB296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D0C1372B48EF06006CB296 = {
+			isa = PBXGroup;
+			children = (
+				84D0C1422B48EF06006CB296 /* Vertex5-Test */,
+				84D0C1532B48EF07006CB296 /* Vertex5-TestTests */,
+				84D0C15D2B48EF07006CB296 /* Vertex5-TestUITests */,
+				84D0C1412B48EF06006CB296 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D0C1412B48EF06006CB296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D0C1402B48EF06006CB296 /* Vertex5-Test.app */,
+				84D0C1502B48EF07006CB296 /* Vertex5-TestTests.xctest */,
+				84D0C15A2B48EF07006CB296 /* Vertex5-TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D0C1422B48EF06006CB296 /* Vertex5-Test */ = {
+			isa = PBXGroup;
+			children = (
+				84D0C1792B48FE34006CB296 /* Base */,
+				84D0C1762B48F103006CB296 /* Extensions */,
+				84D0C16D2B48EF17006CB296 /* Onboard */,
+				84D0C1432B48EF06006CB296 /* Vertex5_TestApp.swift */,
+				84D0C1452B48EF06006CB296 /* ContentView.swift */,
+				84D0C1472B48EF07006CB296 /* Assets.xcassets */,
+				84D0C1492B48EF07006CB296 /* Preview Content */,
+			);
+			path = "Vertex5-Test";
+			sourceTree = "<group>";
+		};
+		84D0C1492B48EF07006CB296 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84D0C14A2B48EF07006CB296 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84D0C1532B48EF07006CB296 /* Vertex5-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				84D0C1542B48EF07006CB296 /* Vertex5_TestTests.swift */,
+			);
+			path = "Vertex5-TestTests";
+			sourceTree = "<group>";
+		};
+		84D0C15D2B48EF07006CB296 /* Vertex5-TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84D0C15E2B48EF07006CB296 /* Vertex5_TestUITests.swift */,
+				84D0C1602B48EF07006CB296 /* Vertex5_TestUITestsLaunchTests.swift */,
+			);
+			path = "Vertex5-TestUITests";
+			sourceTree = "<group>";
+		};
+		84D0C16D2B48EF17006CB296 /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				84D0C16E2B48EF24006CB296 /* OnboardView.swift */,
+				84D0C1702B48EF34006CB296 /* OnboardWeightView.swift */,
+				84D0C1722B48EF3C006CB296 /* OnboardHeightView.swift */,
+				84D0C1742B48EF83006CB296 /* OnboardHeaderView.swift */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		84D0C1762B48F103006CB296 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84D0C1772B48F10C006CB296 /* Color+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84D0C1792B48FE34006CB296 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				84D0C17A2B48FE3B006CB296 /* PickerView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D0C13F2B48EF06006CB296 /* Vertex5-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D0C1642B48EF07006CB296 /* Build configuration list for PBXNativeTarget "Vertex5-Test" */;
+			buildPhases = (
+				84D0C13C2B48EF06006CB296 /* Sources */,
+				84D0C13D2B48EF06006CB296 /* Frameworks */,
+				84D0C13E2B48EF06006CB296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vertex5-Test";
+			productName = "Vertex5-Test";
+			productReference = 84D0C1402B48EF06006CB296 /* Vertex5-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D0C14F2B48EF07006CB296 /* Vertex5-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D0C1672B48EF07006CB296 /* Build configuration list for PBXNativeTarget "Vertex5-TestTests" */;
+			buildPhases = (
+				84D0C14C2B48EF07006CB296 /* Sources */,
+				84D0C14D2B48EF07006CB296 /* Frameworks */,
+				84D0C14E2B48EF07006CB296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D0C1522B48EF07006CB296 /* PBXTargetDependency */,
+			);
+			name = "Vertex5-TestTests";
+			productName = "Vertex5-TestTests";
+			productReference = 84D0C1502B48EF07006CB296 /* Vertex5-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84D0C1592B48EF07006CB296 /* Vertex5-TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D0C16A2B48EF07006CB296 /* Build configuration list for PBXNativeTarget "Vertex5-TestUITests" */;
+			buildPhases = (
+				84D0C1562B48EF07006CB296 /* Sources */,
+				84D0C1572B48EF07006CB296 /* Frameworks */,
+				84D0C1582B48EF07006CB296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D0C15C2B48EF07006CB296 /* PBXTargetDependency */,
+			);
+			name = "Vertex5-TestUITests";
+			productName = "Vertex5-TestUITests";
+			productReference = 84D0C15A2B48EF07006CB296 /* Vertex5-TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D0C1382B48EF06006CB296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					84D0C13F2B48EF06006CB296 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					84D0C14F2B48EF07006CB296 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 84D0C13F2B48EF06006CB296;
+					};
+					84D0C1592B48EF07006CB296 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 84D0C13F2B48EF06006CB296;
+					};
+				};
+			};
+			buildConfigurationList = 84D0C13B2B48EF06006CB296 /* Build configuration list for PBXProject "Vertex5-Test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D0C1372B48EF06006CB296;
+			productRefGroup = 84D0C1412B48EF06006CB296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D0C13F2B48EF06006CB296 /* Vertex5-Test */,
+				84D0C14F2B48EF07006CB296 /* Vertex5-TestTests */,
+				84D0C1592B48EF07006CB296 /* Vertex5-TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D0C13E2B48EF06006CB296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D0C14B2B48EF07006CB296 /* Preview Assets.xcassets in Resources */,
+				84D0C1482B48EF07006CB296 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D0C14E2B48EF07006CB296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D0C1582B48EF07006CB296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D0C13C2B48EF06006CB296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D0C1462B48EF06006CB296 /* ContentView.swift in Sources */,
+				84D0C1782B48F10C006CB296 /* Color+Ext.swift in Sources */,
+				84D0C1752B48EF83006CB296 /* OnboardHeaderView.swift in Sources */,
+				84D0C16F2B48EF24006CB296 /* OnboardView.swift in Sources */,
+				84D0C17B2B48FE3B006CB296 /* PickerView.swift in Sources */,
+				84D0C1712B48EF34006CB296 /* OnboardWeightView.swift in Sources */,
+				84D0C1732B48EF3C006CB296 /* OnboardHeightView.swift in Sources */,
+				84D0C1442B48EF06006CB296 /* Vertex5_TestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D0C14C2B48EF07006CB296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D0C1552B48EF07006CB296 /* Vertex5_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D0C1562B48EF07006CB296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D0C1612B48EF07006CB296 /* Vertex5_TestUITestsLaunchTests.swift in Sources */,
+				84D0C15F2B48EF07006CB296 /* Vertex5_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D0C1522B48EF07006CB296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D0C13F2B48EF06006CB296 /* Vertex5-Test */;
+			targetProxy = 84D0C1512B48EF07006CB296 /* PBXContainerItemProxy */;
+		};
+		84D0C15C2B48EF07006CB296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D0C13F2B48EF06006CB296 /* Vertex5-Test */;
+			targetProxy = 84D0C15B2B48EF07006CB296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84D0C1622B48EF07006CB296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84D0C1632B48EF07006CB296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D0C1652B48EF07006CB296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vertex5-Test/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.upwork.duck.test.Vertex5-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D0C1662B48EF07006CB296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vertex5-Test/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.upwork.duck.test.Vertex5-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84D0C1682B48EF07006CB296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.upwork.duck.test.Vertex5-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vertex5-Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vertex5-Test";
+			};
+			name = Debug;
+		};
+		84D0C1692B48EF07006CB296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.upwork.duck.test.Vertex5-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vertex5-Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vertex5-Test";
+			};
+			name = Release;
+		};
+		84D0C16B2B48EF07006CB296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.upwork.duck.test.Vertex5-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vertex5-Test";
+			};
+			name = Debug;
+		};
+		84D0C16C2B48EF07006CB296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.upwork.duck.test.Vertex5-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vertex5-Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D0C13B2B48EF06006CB296 /* Build configuration list for PBXProject "Vertex5-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D0C1622B48EF07006CB296 /* Debug */,
+				84D0C1632B48EF07006CB296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D0C1642B48EF07006CB296 /* Build configuration list for PBXNativeTarget "Vertex5-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D0C1652B48EF07006CB296 /* Debug */,
+				84D0C1662B48EF07006CB296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D0C1672B48EF07006CB296 /* Build configuration list for PBXNativeTarget "Vertex5-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D0C1682B48EF07006CB296 /* Debug */,
+				84D0C1692B48EF07006CB296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D0C16A2B48EF07006CB296 /* Build configuration list for PBXNativeTarget "Vertex5-TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D0C16B2B48EF07006CB296 /* Debug */,
+				84D0C16C2B48EF07006CB296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D0C1382B48EF06006CB296 /* Project object */;
+}
